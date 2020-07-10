@@ -1,0 +1,158 @@
+body {
+    
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    vertical-align: center;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+section{
+    scroll-snap-align: start;
+    display: block;
+    height: 100vh;
+}
+
+.CONTAINER{
+
+    scroll-snap-type: y mandatory;
+    overflow-y: visible hidden;
+    overflow-x: hidden;
+    scroll-snap-stop: always;
+    scroll-behavior: smooth; 
+}
+
+/*First Conteiner with Header*/
+.Main {
+    background-color: black;
+    color: white;
+    vertical-align: central;
+}
+.Main_Content {
+    padding: 25;
+    align-content: center;
+    vertical-align:central;
+}
+
+/*Introduction Container*/
+.Intro {
+    background-color: #0c0c0c;
+    color: white;
+    vertical-align: center;
+}
+
+.Intro_Content {
+    padding: 25;
+    align-content: center;
+    vertical-align: center;
+}
+
+/*Genrel Stuff container*/
+.General {
+    background-color: black;
+    color: white;
+}
+
+.General_Content {
+    padding: 25;
+    align-content: center;
+}
+
+/*Curriculum Vitea Container*/
+.CV {
+    background-color: #0c0c0c;
+    color: white;
+}
+
+.CV_Content {
+    padding: 25;
+    align-content: center;
+}
+
+/*Projects container*/
+.Projects {
+    background-color: black;
+    color: white;
+}
+
+.Projects_Content {
+    padding: 25;
+    align-content: center;
+}
+
+/*Contacts container*/
+.Contacts {
+    background-color: #0c0c0c;
+    color: white;
+}
+
+.Contacts_Content {
+    padding: 25;
+    align-content: center;
+}
+
+/*Projects container*/
+.Misc {
+    background-color: black;
+    color: white;
+}
+
+.Misc_Content {
+    padding: 25;
+    align-content: center;
+}
+
+.link {
+    color: red;
+    text-decoration: none;
+    background-color: none;
+    border:thick;
+    border-color: red;
+}
+
+.invert_svg {
+    -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+    filter: invert(100%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.homebutton {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    right: 0;
+}
+
+.onlyShowsInWebKitBrowser {
+    opacity: 0;
+    text-align: left;
+    width: 30%;
+}
+
+@supports (-webkit-appearance:none) and (not (overflow:-webkit-marquee)) and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)){ 
+
+    .onlyShowsInWebKitBrowser {
+        opacity: 1;
+    }
+    
+}   
