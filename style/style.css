@@ -127,6 +127,21 @@ section{
     border-color: red;
 }
 
+.projectlist{
+    height: 30%;
+    border: 1px solid #808080;
+    display: flex;
+    overflow-x: auto;
+    margin-top: 5%;
+}
+
+.projectlist .item{
+    min-width: 25%;
+
+    text-align:center;
+    margin-right: 5px;
+}
+
 .invert_svg {
     -webkit-filter: invert(100%);
     filter: invert(100%);
