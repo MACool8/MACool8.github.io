@@ -59,6 +59,7 @@ section{
 }
 
 .Intro_Content {
+	
     padding: 25;
     align-content: center;
     vertical-align: center;
@@ -137,9 +138,10 @@ section{
 
 .projectlist .item{
     min-width: 25%;
-
+	width: 25%;
     text-align:center;
-    margin-right: 5px;
+    margin: auto;
+
 }
 
 .invert_svg {
