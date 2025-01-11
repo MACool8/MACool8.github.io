@@ -38,6 +38,11 @@ section{
     scroll-snap-stop: always;
     scroll-behavior: smooth; 
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*First Conteiner with Header*/
 .Main {
