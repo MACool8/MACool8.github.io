@@ -1,0 +1,6 @@
+{
+  colwidth = 32
+  node_height = 72
+
+  0-7: Type \n (1 byte) \n Currently always 0x1
+}

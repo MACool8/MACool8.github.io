@@ -1,0 +1,16 @@
+{
+  colwidth = 32
+  node_height = 72
+
+  0-7: Major Client Version \n (1 byte)
+  8-15: Minor Client Version \n (1 byte)
+  16-47: Random \n (32 bytes)
+  48-55: SessionID_Length \n (1 byte)
+  56-63: SessionID \n ($SessionID_Length$ bytes, 0 - 32 bytes)
+  64-79: CipherSuites_Length \n (2 bytes)
+  80-95: CipherSuites \n ($CipherSuites_Length$ bytes, 2 - 2^16-2 bytes)
+  96-103: CompressionMethods_Length \n (1 byte)
+  104-127: CompressionMethods \n ($CipherSuites_Length$ bytes, 1 - 2^8-1 bytes) 
+  128-143: (optional) Extension_Length \n (2 bytes)
+  144-159: (optional) Extension \n ($Extension_Length$ bytes, 0 - 2^16-1 bytes)
+}

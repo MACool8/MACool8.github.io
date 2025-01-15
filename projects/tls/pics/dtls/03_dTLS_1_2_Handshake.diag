@@ -1,0 +1,11 @@
+{
+  colwidth = 32
+  node_height = 72
+
+  0-7: HandShakeType \n (1 byte)
+  8-31: Length \n (3 bytes)
+  32-47: MessageSeq \n (2 bytes)
+  48-71: FragmantOffset \n (3 bytes)
+  72-95: FragmentLength \n (3 bytes)
+  96-127: Body \n ($Length$ Bytes) \n (hello_request / client_hello / server_hello / server_hello_done / client_key_exchange / finished) [colheight = 3]
+}

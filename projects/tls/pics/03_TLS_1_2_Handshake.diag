@@ -1,0 +1,8 @@
+{
+  colwidth = 32
+  node_height = 72
+
+  0-7: HandShakeType \n (1 byte)
+  8-31: Length \n (3 byte)
+  32-63: Body \n ($Length$ Bytes) \n (hello_request / client_hello / server_hello / server_hello_done / client_key_exchange / finished) [colheight = 3]
+}

@@ -1,0 +1,7 @@
+{
+  colwidth = 16
+  node_height = 72
+
+  0-7: AlertLevel \n (1 byte)
+  8-15: AlertDescription \n (1 byte)
+}

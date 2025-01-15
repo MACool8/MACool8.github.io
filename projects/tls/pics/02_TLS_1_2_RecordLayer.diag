@@ -1,0 +1,10 @@
+{
+  colwidth = 40
+  node_height = 72
+
+  0-7: Content Type \n (1 byte)
+  8-15: Major Version \n (1 byte)
+  16-23: Minor Version \n (1 byte)
+  24-39: Length \n (2 byte)
+  40-79: Fragment \n ($Length$ byte) \n(HandShake / ApplicationData / ChangeCipherSpec / Altert) [colheight = 3]
+}

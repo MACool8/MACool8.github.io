@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 512 192"
+   version="1.1"
+   id="svg593"
+   sodipodi:docname="03_01_TLS_1_2_Handshake_Hello_Request.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview595"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="6.0416667"
+     inkscape:cx="255.97241"
+     inkscape:cy="96"
+     inkscape:window-width="3440"
+     inkscape:window-height="1375"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg593" />
+  <defs
+     id="defs_block" />
+  <title
+     id="title535">blockdiag</title>
+  <desc
+     id="desc537">{
+  colwidth = 16
+  node_height = 72
+
+  0-15: HelloRequest \n (0 byte)
+}
+</desc>
+  <path
+     d="M 64 48 L 64 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path539" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="6"
+     x="64.0"
+     y="42"
+     id="text541">0</text>
+  <path
+     d="M 88 64 L 88 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path543" />
+  <path
+     d="M 112 64 L 112 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path545" />
+  <path
+     d="M 136 64 L 136 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path547" />
+  <path
+     d="M 160 48 L 160 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path549" />
+  <path
+     d="M 184 64 L 184 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path551" />
+  <path
+     d="M 208 64 L 208 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path553" />
+  <path
+     d="M 232 64 L 232 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path555" />
+  <path
+     d="M 256 48 L 256 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path557" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="11px"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="6"
+     x="256"
+     y="42"
+     id="text559"
+     lengthAdjust="spacing">0</text>
+  <path
+     d="M 280 64 L 280 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path561" />
+  <path
+     d="M 304 64 L 304 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path563" />
+  <path
+     d="M 328 64 L 328 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path565" />
+  <path
+     d="M 352 48 L 352 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path567" />
+  <path
+     d="M 376 64 L 376 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path569" />
+  <path
+     d="M 400 64 L 400 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path571" />
+  <path
+     d="M 424 64 L 424 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path573" />
+  <path
+     d="M 448 48 L 448 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path575" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="11px"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="12"
+     x="448"
+     y="42"
+     id="text577"
+     lengthAdjust="spacing"
+     transform="translate(2.9795932,-0.15887998)">0</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="384"
+     x="64"
+     y="80"
+     id="rect579" />
+  <path
+     d="M 64 80 L 448 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path581" />
+  <path
+     d="M 448 80 L 448 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path583" />
+  <path
+     d="M 448 152 L 64 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path585" />
+  <path
+     d="M 64 152 L 64 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path587" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="72"
+     x="256.0"
+     y="115"
+     id="text589">HelloRequest</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="48"
+     x="256.0"
+     y="128"
+     id="text591">(0 byte)</text>
+</svg>

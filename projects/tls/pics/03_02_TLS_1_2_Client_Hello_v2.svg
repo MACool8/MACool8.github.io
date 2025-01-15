@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 896 480"
+   version="1.1"
+   id="svg251"
+   sodipodi:docname="03_02_TLS_1_2_Client_Hello_v2.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview253"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="10.5625"
+     inkscape:cx="739.59763"
+     inkscape:cy="224.85207"
+     inkscape:window-width="3440"
+     inkscape:window-height="1375"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg251" />
+  <defs
+     id="defs_block">
+    <rect
+       x="455.57514"
+       y="88.885725"
+       width="79.546459"
+       height="53.483774"
+       id="rect118372" />
+    <rect
+       x="460.56102"
+       y="92.081211"
+       width="71.022407"
+       height="44.102564"
+       id="rect99838" />
+  </defs>
+  <title
+     id="title5">blockdiag</title>
+  <desc
+     id="desc7">{
+  colwidth = 32
+  node_height = 72
+
+  0-7: Major Client Version \n (1 byte)
+  8-15: Minor Client Version \n (1 byte)
+  16-47: Random \n (32 bytes)
+  48-55: SessionID_Length \n (1 byte)
+  56-63: SessionID \n ($SessionID_Length$ bytes, 0 - 32 bytes)
+  64-79: CipherSuites_Length \n (2 bytes)
+  80-95: CipherSuites \n ($CipherSuites_Length$ bytes, 2 - 2^16-2 bytes)
+  96-103: CompressionMethods_Length \n (1 byte)
+  104-127: CompressionMethods \n ($CipherSuites_Length$ bytes, 1 - 2^8-1 bytes) 
+  128-143: (optional) Extension_Length \n (2 bytes)
+  144-159: (optional) Extension \n ($Extension_Length$ bytes, 0 - 2^16-1 bytes)
+}
+</desc>
+  <path
+     d="M 64 48 L 64 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path9" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="6"
+     x="64.0"
+     y="42"
+     id="text11">0</text>
+  <path
+     d="M 88 64 L 88 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path13" />
+  <path
+     d="M 112 64 L 112 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path15" />
+  <path
+     d="M 136 64 L 136 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path17" />
+  <path
+     d="M 160 64 L 160 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path19" />
+  <path
+     d="M 184 64 L 184 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path21" />
+  <path
+     d="M 208 64 L 208 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path23" />
+  <path
+     d="M 232 64 L 232 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path25" />
+  <path
+     d="M 256 48 L 256 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path27" />
+  <path
+     d="M 280 64 L 280 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path29" />
+  <path
+     d="M 304 64 L 304 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path31" />
+  <path
+     d="M 328 64 L 328 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path33" />
+  <path
+     d="M 352 64 L 352 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path35" />
+  <path
+     d="M 376 64 L 376 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path37" />
+  <path
+     d="M 400 64 L 400 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path39" />
+  <path
+     d="M 424 64 L 424 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path41" />
+  <path
+     d="M 448 48 L 448 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path43" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="12"
+     x="448.0"
+     y="42"
+     id="text45">16</text>
+  <path
+     d="M 472 64 L 472 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path47" />
+  <path
+     d="M 496 64 L 496 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path49" />
+  <path
+     d="M 520 64 L 520 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path51" />
+  <path
+     d="M 544 64 L 544 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path53" />
+  <path
+     d="M 568 64 L 568 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path55" />
+  <path
+     d="M 592 64 L 592 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path57" />
+  <path
+     d="M 616 64 L 616 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path59" />
+  <path
+     d="M 640 48 L 640 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path61" />
+  <path
+     d="M 664 64 L 664 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path63" />
+  <path
+     d="M 688 64 L 688 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path65" />
+  <path
+     d="M 712 64 L 712 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path67" />
+  <path
+     d="M 736 64 L 736 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path69" />
+  <path
+     d="M 760 64 L 760 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path71" />
+  <path
+     d="M 784 64 L 784 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path73" />
+  <path
+     d="M 808 64 L 808 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path75" />
+  <path
+     d="M 832 48 L 832 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path77" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="12"
+     x="832.0"
+     y="42"
+     id="text79">32</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="192"
+     x="64"
+     y="80"
+     id="rect81" />
+  <path
+     d="M 64 80 L 256 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path83" />
+  <path
+     d="M 256 80 L 256 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path85" />
+  <path
+     d="M 256 152 L 64 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path87" />
+  <path
+     d="M 64 152 L 64 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path89" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="120"
+     x="160.0"
+     y="115"
+     id="text91">Major Client Version</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="48"
+     x="160.0"
+     y="128"
+     id="text93">(1 byte)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="192"
+     x="256"
+     y="80"
+     id="rect95" />
+  <path
+     d="M 256 80 L 448 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path97" />
+  <path
+     d="M 448 80 L 448 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path99" />
+  <path
+     d="M 448 152 L 256 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path101" />
+  <path
+     d="M 256 152 L 256 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path103" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="120"
+     x="352.0"
+     y="115"
+     id="text105">Minor Client Version</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="48"
+     x="352.0"
+     y="128"
+     id="text107">(1 byte)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="384"
+     x="64"
+     y="152"
+     id="rect109" />
+  <path
+     d="M 64 152 L 448 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path111" />
+  <path
+     d="M 448 152 L 448 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path113" />
+  <path
+     d="M 448 224 L 64 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path115" />
+  <path
+     d="M 64 224 L 64 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     stroke-dasharray="4"
+     id="path117" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="36"
+     x="256.0"
+     y="187"
+     id="text119">Random</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="60"
+     x="256.0"
+     y="200"
+     id="text121">(32 bytes)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="192"
+     x="448"
+     y="152"
+     id="rect123" />
+  <path
+     d="M 448 152 L 640 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path125" />
+  <path
+     d="M 640 152 L 640 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path127" />
+  <path
+     d="M 640 224 L 448 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path129" />
+  <path
+     d="M 448 224 L 448 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path131" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="96"
+     x="544.0"
+     y="187"
+     id="text133">SessionID_Length</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="48"
+     x="544.0"
+     y="200"
+     id="text135">(1 byte)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="192"
+     x="640"
+     y="152"
+     id="rect137" />
+  <path
+     d="M 640 152 L 832 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path139" />
+  <path
+     d="M 832 152 L 832 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path141" />
+  <path
+     d="M 832 224 L 640 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path143" />
+  <path
+     d="M 640 224 L 640 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path145" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="54"
+     x="736.0"
+     y="181"
+     id="text147">SessionID</text>
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="11px"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="192"
+     x="736"
+     y="194"
+     id="text149"
+     lengthAdjust="spacing"
+     transform="matrix(0.97714807,0,0,1,17.383387,0)">($SessionID_Length$ bytes,</text>
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="11px"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="48"
+     x="736"
+     y="207"
+     id="text151"
+     lengthAdjust="spacing"
+     style="font-size:10.027px;white-space:pre;inline-size:69.4895"
+     xml:space="preserve"
+     transform="matrix(1.0970427,0,0,1.0970427,-69.202869,-19.276553)"><tspan
+       x="736"
+       y="207"
+       id="tspan23303"><tspan
+         dx="0 -0.76031417 -0.76031393 -0.76031417 -0.76031393 -0.76031417 -0.76031417 -0.76031297 -0.76031512 -0.76031464 -0.7603144 -0.76031369 -0.76031131"
+         id="tspan23301">0 - 32 bytes)</tspan></tspan></text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="384"
+     x="64"
+     y="224"
+     id="rect153" />
+  <path
+     d="M 64 224 L 448 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path155" />
+  <path
+     d="M 448 224 L 448 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path157" />
+  <path
+     d="M 448 296 L 64 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path159" />
+  <path
+     d="M 64 296 L 64 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path161" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="114"
+     x="256.0"
+     y="259"
+     id="text163">CipherSuites_Length</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="54"
+     x="256.0"
+     y="272"
+     id="text165">(2 bytes)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="384"
+     x="448"
+     y="224"
+     id="rect167" />
+  <path
+     d="M 448 224 L 832 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path169" />
+  <path
+     d="M 832 224 L 832 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path171" />
+  <path
+     d="M 832 296 L 448 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path173" />
+  <path
+     d="M 448 296 L 448 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path175" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="72"
+     x="640.0"
+     y="259"
+     id="text177">CipherSuites</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="282"
+     x="640.0"
+     y="272"
+     id="text179">($CipherSuites_Length$ bytes, 2 - 2^16-2 bytes)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="192"
+     x="64"
+     y="296"
+     id="rect181" />
+  <path
+     d="M 64 296 L 256 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path183" />
+  <path
+     d="M 256 296 L 256 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path185" />
+  <path
+     d="M 256 368 L 64 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path187" />
+  <path
+     d="M 64 368 L 64 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path189" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="150"
+     x="160.0"
+     y="331"
+     id="text191">CompressionMethods_Length</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="48"
+     x="160.0"
+     y="344"
+     id="text193">(1 byte)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="576"
+     x="256"
+     y="296"
+     id="rect195" />
+  <path
+     d="M 256 296 L 832 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path197" />
+  <path
+     d="M 832 296 L 832 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path199" />
+  <path
+     d="M 832 368 L 256 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path201" />
+  <path
+     d="M 256 368 L 256 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path203" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="108"
+     x="544.0"
+     y="331"
+     id="text205">CompressionMethods</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="276"
+     x="544.0"
+     y="344"
+     id="text207">($CipherSuites_Length$ bytes, 1 - 2^8-1 bytes)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="384"
+     x="64"
+     y="368"
+     id="rect209" />
+  <path
+     d="M 64 368 L 448 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path211" />
+  <path
+     d="M 448 368 L 448 440"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path213" />
+  <path
+     d="M 448 440 L 64 440"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path215" />
+  <path
+     d="M 64 440 L 64 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path217" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="162"
+     x="256.0"
+     y="403"
+     id="text219">(optional) Extension_Length</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="54"
+     x="256.0"
+     y="416"
+     id="text221">(2 bytes)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="384"
+     x="448"
+     y="368"
+     id="rect223" />
+  <path
+     d="M 448 368 L 832 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path225" />
+  <path
+     d="M 832 368 L 832 440"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path227" />
+  <path
+     d="M 832 440 L 448 440"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path229" />
+  <path
+     d="M 448 440 L 448 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path231" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="120"
+     x="640.0"
+     y="403"
+     id="text233">(optional) Extension</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="264"
+     x="640.0"
+     y="416"
+     id="text235">($Extension_Length$ bytes, 0 - 2^16-1 bytes)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="384"
+     x="448"
+     y="80"
+     id="rect237" />
+  <path
+     d="M 448 80 L 832 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path239" />
+  <path
+     d="M 832 80 L 832 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     stroke-dasharray="4"
+     id="path241" />
+  <path
+     d="M 832 152 L 448 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path243" />
+  <path
+     d="M 448 152 L 448 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path245" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="36"
+     x="640.0"
+     y="115"
+     id="text247">Random</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="60"
+     x="640.0"
+     y="128"
+     id="text249">(32 bytes)</text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+     x="682.81281"
+     y="208.58939"
+     id="text52183"><tspan
+       sodipodi:role="line"
+       id="tspan52181" /></text>
+  <rect
+     style="fill:#0000ff;fill-opacity:0.00409678;fill-rule:evenodd;stroke:#000000;stroke-width:0.964362;stroke-miterlimit:4;stroke-dasharray:3.85745, 0.964362;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect92977"
+     width="89.045074"
+     height="67.319954"
+     x="451.49747"
+     y="82.041321" />
+  <text
+     xml:space="preserve"
+     id="text99836"
+     style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect99838)" />
+  <text
+     xml:space="preserve"
+     id="text118370"
+     style="font-size:11px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect118372)"
+     x="25.679487"
+     y="0"
+     transform="translate(0.40567215,4.8707124)"><tspan
+       x="469.44817"
+       y="98.893393"
+       id="tspan23305">Unix Time </tspan><tspan
+       x="478.73216"
+       y="112.64339"
+       id="tspan23307">Stamp
+</tspan><tspan
+       x="473.67217"
+       y="126.39339"
+       id="tspan23309">(4 bytes)</tspan></text>
+  <metadata
+     id="metadata123796">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>blockdiag</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

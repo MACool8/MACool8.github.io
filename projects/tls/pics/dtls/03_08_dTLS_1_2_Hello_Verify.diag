@@ -1,0 +1,10 @@
+{
+  colwidth = 32
+  node_height = 72
+
+  0-7: Major Client Version \n (1 byte)
+  8-15: Minor Client Version \n (1 byte)
+  16-23: Cookie_Length \n (1 byte)
+  24-31: Cookie \n ($Cookie_Length$ bytes,               1 - 2^8-1 bytes)
+
+}

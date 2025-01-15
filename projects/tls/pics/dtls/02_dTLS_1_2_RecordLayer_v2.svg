@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1088 336"
+   version="1.1"
+   id="svg211"
+   sodipodi:docname="02_dTLS_1_2_RecordLayer_v2.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview213"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="2.1746324"
+     inkscape:cx="452.95013"
+     inkscape:cy="210.61031"
+     inkscape:window-width="3440"
+     inkscape:window-height="1375"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg211" />
+  <defs
+     id="defs_block" />
+  <title
+     id="title5">blockdiag</title>
+  <desc
+     id="desc7">{
+  colwidth = 40
+  node_height = 72
+
+  0-7: Content Type \n (1 byte)
+  8-15: Major Version \n (1 byte)
+  16-23: Minor Version \n (1 byte)
+  24-39: Epoch \n (2 bytes)
+  40-87: Sequence Number \n (6 byte) 
+  88-103: Length \n (2 bytes)
+  104-119: Fragment \n ($Length$ byte) \n(HandShake / ApplicationData / ChangeCipherSpec / Altert) 
+}
+</desc>
+  <path
+     d="M 64 48 L 64 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path9" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="6"
+     x="64.0"
+     y="42"
+     id="text11">0</text>
+  <path
+     d="M 88 64 L 88 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path13" />
+  <path
+     d="M 112 64 L 112 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path15" />
+  <path
+     d="M 136 64 L 136 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path17" />
+  <path
+     d="M 160 64 L 160 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path19" />
+  <path
+     d="M 184 64 L 184 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path21" />
+  <path
+     d="M 208 64 L 208 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path23" />
+  <path
+     d="M 232 64 L 232 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path25" />
+  <path
+     d="M 256 64 L 256 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path27" />
+  <path
+     d="M 280 64 L 280 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path29" />
+  <path
+     d="M 304 48 L 304 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path31" />
+  <path
+     d="M 328 64 L 328 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path33" />
+  <path
+     d="M 352 64 L 352 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path35" />
+  <path
+     d="M 376 64 L 376 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path37" />
+  <path
+     d="M 400 64 L 400 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path39" />
+  <path
+     d="M 424 64 L 424 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path41" />
+  <path
+     d="M 448 64 L 448 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path43" />
+  <path
+     d="M 472 64 L 472 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path45" />
+  <path
+     d="M 496 64 L 496 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path47" />
+  <path
+     d="M 520 64 L 520 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path49" />
+  <path
+     d="M 544 48 L 544 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path51" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="12"
+     x="544.0"
+     y="42"
+     id="text53">20</text>
+  <path
+     d="M 568 64 L 568 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path55" />
+  <path
+     d="M 592 64 L 592 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path57" />
+  <path
+     d="M 616 64 L 616 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path59" />
+  <path
+     d="M 640 64 L 640 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path61" />
+  <path
+     d="M 664 64 L 664 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path63" />
+  <path
+     d="M 688 64 L 688 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path65" />
+  <path
+     d="M 712 64 L 712 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path67" />
+  <path
+     d="M 736 64 L 736 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path69" />
+  <path
+     d="M 760 64 L 760 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path71" />
+  <path
+     d="M 784 48 L 784 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path73" />
+  <path
+     d="M 808 64 L 808 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path75" />
+  <path
+     d="M 832 64 L 832 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path77" />
+  <path
+     d="M 856 64 L 856 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path79" />
+  <path
+     d="M 880 64 L 880 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path81" />
+  <path
+     d="M 904 64 L 904 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path83" />
+  <path
+     d="M 928 64 L 928 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path85" />
+  <path
+     d="M 952 64 L 952 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path87" />
+  <path
+     d="M 976 64 L 976 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path89" />
+  <path
+     d="M 1000 64 L 1000 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path91" />
+  <path
+     d="M 1024 48 L 1024 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path93" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="12"
+     x="1024.0"
+     y="42"
+     id="text95">40</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="192"
+     x="64"
+     y="80"
+     id="rect97" />
+  <path
+     d="M 64 80 L 256 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path99" />
+  <path
+     d="M 256 80 L 256 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path101" />
+  <path
+     d="M 256 152 L 64 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path103" />
+  <path
+     d="M 64 152 L 64 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path105" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="72"
+     x="160.0"
+     y="115"
+     id="text107">Content Type</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="48"
+     x="160.0"
+     y="128"
+     id="text109">(1 byte)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="192"
+     x="256"
+     y="80"
+     id="rect111" />
+  <path
+     d="M 256 80 L 448 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path113" />
+  <path
+     d="M 448 80 L 448 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path115" />
+  <path
+     d="M 448 152 L 256 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path117" />
+  <path
+     d="M 256 152 L 256 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path119" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="78"
+     x="352.0"
+     y="115"
+     id="text121">Major Version</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="48"
+     x="352.0"
+     y="128"
+     id="text123">(1 byte)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="192"
+     x="448"
+     y="80"
+     id="rect125" />
+  <path
+     d="M 448 80 L 640 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path127" />
+  <path
+     d="M 640 80 L 640 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path129" />
+  <path
+     d="M 640 152 L 448 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path131" />
+  <path
+     d="M 448 152 L 448 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path133" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="78"
+     x="544.0"
+     y="115"
+     id="text135">Minor Version</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="48"
+     x="544.0"
+     y="128"
+     id="text137">(1 byte)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="384"
+     x="640"
+     y="80"
+     id="rect139"
+     style="fill:#00ffff" />
+  <path
+     d="M 640 80 L 1024 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path141" />
+  <path
+     d="M 1024 80 L 1024 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path143" />
+  <path
+     d="M 1024 152 L 640 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path145" />
+  <path
+     d="M 640 152 L 640 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path147" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="30"
+     x="832.0"
+     y="115"
+     id="text149">Epoch</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="54"
+     x="832.0"
+     y="128"
+     id="text151">(2 bytes)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="192"
+     x="64"
+     y="224"
+     id="rect153"
+     style="fill:#00ffff" />
+  <path
+     d="M 64 224 L 256 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path155" />
+  <path
+     d="M 256 224 L 256 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path157" />
+  <path
+     d="M 256 296 L 64 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path159" />
+  <path
+     d="M 64 296 L 64 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     stroke-dasharray="4"
+     id="path161" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="90"
+     x="160.0"
+     y="259"
+     id="text163">Sequence Number</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="48"
+     x="160.0"
+     y="272"
+     id="text165">(6 byte)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="384"
+     x="256"
+     y="224"
+     id="rect167" />
+  <path
+     d="M 256 224 L 640 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path169" />
+  <path
+     d="M 640 224 L 640 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path171" />
+  <path
+     d="M 640 296 L 256 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path173" />
+  <path
+     d="M 256 296 L 256 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path175" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="36"
+     x="448.0"
+     y="259"
+     id="text177">Length</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="54"
+     x="448.0"
+     y="272"
+     id="text179">(2 bytes)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="384"
+     x="640"
+     y="224"
+     id="rect181" />
+  <path
+     d="M 640 224 L 1024 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path183" />
+  <path
+     d="M 1024 224 L 1024 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path185" />
+  <path
+     d="M 1024 296 L 640 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path187" />
+  <path
+     d="M 640 296 L 640 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path189" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="48"
+     x="832.0"
+     y="253"
+     id="text191">Fragment</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="90"
+     x="832.0"
+     y="266"
+     id="text193">($Length$ byte)</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="342"
+     x="832.0"
+     y="279"
+     id="text195">(HandShake / ApplicationData / ChangeCipherSpec / Altert)</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="960"
+     x="64"
+     y="152"
+     id="rect197"
+     style="fill:#00ffff" />
+  <path
+     d="M 64 152 L 1024 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path199" />
+  <path
+     d="M 1024 152 L 1024 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     stroke-dasharray="4"
+     id="path201" />
+  <path
+     d="M 1024 224 L 64 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path203" />
+  <path
+     d="M 64 224 L 64 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path205" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="90"
+     x="544.0"
+     y="187"
+     id="text207">Sequence Number</text>
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="48"
+     x="544.0"
+     y="200"
+     id="text209">(6 byte)</text>
+</svg>

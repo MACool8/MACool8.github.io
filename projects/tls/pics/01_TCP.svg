@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 896 768"
+   version="1.1"
+   id="svg1050"
+   sodipodi:docname="01_TCP.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview1052"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.6075631"
+     inkscape:cx="239.49294"
+     inkscape:cy="455.03658"
+     inkscape:window-width="3440"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1050" />
+  <defs
+     id="defs_block">
+    <rect
+       x="456.2807"
+       y="751.13694"
+       width="197.81494"
+       height="239.49294"
+       id="rect72682" />
+    <rect
+       x="72.577316"
+       y="519.91754"
+       width="180.34364"
+       height="57.182129"
+       id="rect31543" />
+    <rect
+       x="72.577316"
+       y="519.91754"
+       width="180.34364"
+       height="57.182129"
+       id="rect31543-2" />
+    <rect
+       x="72.577316"
+       y="519.91754"
+       width="180.34364"
+       height="57.182129"
+       id="rect31543-2-5" />
+    <rect
+       x="72.577316"
+       y="519.91754"
+       width="180.34364"
+       height="57.182129"
+       id="rect31543-2-50" />
+  </defs>
+  <title
+     id="title758">blockdiag</title>
+  <desc
+     id="desc760">{
+  colwidth = 32
+  node_height = 72
+
+  0-15: Source Port
+  16-31: Destination Port
+  32-63: Sequence Number
+  64-95: Acknowledgment Number
+  96-99: Data Offset
+  100-105: Reserved
+  106: URG [rotate = 270]
+  107: ACK [rotate = 270]
+  108: PSH [rotate = 270]
+  109: RST [rotate = 270]
+  110: SYN [rotate = 270]
+  111: FIN [rotate = 270]
+  112-127: Window
+  128-143: Checksum
+  144-159: Urgent Pointer
+  160-191: (Options and Padding)
+  192-223: data ((d)TLS) [colheight = 3]
+}
+</desc>
+  <path
+     d="M 64 48 L 64 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path762" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="6"
+     x="64.0"
+     y="42"
+     id="text764">0</text>
+  <path
+     d="M 88 64 L 88 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path766" />
+  <path
+     d="M 112 64 L 112 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path768" />
+  <path
+     d="M 136 64 L 136 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path770" />
+  <path
+     d="M 160 64 L 160 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path772" />
+  <path
+     d="M 184 64 L 184 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path774" />
+  <path
+     d="M 208 64 L 208 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path776" />
+  <path
+     d="M 232 64 L 232 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path778" />
+  <path
+     d="M 256 48 L 256 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path780" />
+  <path
+     d="M 280 64 L 280 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path782" />
+  <path
+     d="M 304 64 L 304 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path784" />
+  <path
+     d="M 328 64 L 328 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path786" />
+  <path
+     d="M 352 64 L 352 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path788" />
+  <path
+     d="M 376 64 L 376 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path790" />
+  <path
+     d="M 400 64 L 400 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path792" />
+  <path
+     d="M 424 64 L 424 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path794" />
+  <path
+     d="M 448 48 L 448 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path796" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="12"
+     x="448.0"
+     y="42"
+     id="text798">16</text>
+  <path
+     d="M 472 64 L 472 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path800" />
+  <path
+     d="M 496 64 L 496 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path802" />
+  <path
+     d="M 520 64 L 520 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path804" />
+  <path
+     d="M 544 64 L 544 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path806" />
+  <path
+     d="M 568 64 L 568 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path808" />
+  <path
+     d="M 592 64 L 592 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path810" />
+  <path
+     d="M 616 64 L 616 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path812" />
+  <path
+     d="M 640 48 L 640 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path814" />
+  <path
+     d="M 664 64 L 664 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path816" />
+  <path
+     d="M 688 64 L 688 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path818" />
+  <path
+     d="M 712 64 L 712 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path820" />
+  <path
+     d="M 736 64 L 736 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path822" />
+  <path
+     d="M 760 64 L 760 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path824" />
+  <path
+     d="M 784 64 L 784 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path826" />
+  <path
+     d="M 808 64 L 808 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path828" />
+  <path
+     d="M 832 48 L 832 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path830" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="12"
+     x="832.0"
+     y="42"
+     id="text832">32</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="384"
+     x="64"
+     y="80"
+     id="rect834" />
+  <path
+     d="M 64 80 L 448 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path836" />
+  <path
+     d="M 448 80 L 448 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path838" />
+  <path
+     d="M 448 152 L 64 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path840" />
+  <path
+     d="M 64 152 L 64 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path842" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="66"
+     x="256.0"
+     y="122"
+     id="text844">Source Port</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="384"
+     x="448"
+     y="80"
+     id="rect846" />
+  <path
+     d="M 448 80 L 832 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path848" />
+  <path
+     d="M 832 80 L 832 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path850" />
+  <path
+     d="M 832 152 L 448 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path852" />
+  <path
+     d="M 448 152 L 448 80"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path854" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="96"
+     x="640.0"
+     y="122"
+     id="text856">Destination Port</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="768"
+     x="64"
+     y="152"
+     id="rect858" />
+  <path
+     d="M 64 152 L 832 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path860" />
+  <path
+     d="M 832 152 L 832 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path862" />
+  <path
+     d="M 832 224 L 64 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path864" />
+  <path
+     d="M 64 224 L 64 152"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path866" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="90"
+     x="448.0"
+     y="194"
+     id="text868">Sequence Number</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="768"
+     x="64"
+     y="224"
+     id="rect870" />
+  <path
+     d="M 64 224 L 832 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path872" />
+  <path
+     d="M 832 224 L 832 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path874" />
+  <path
+     d="M 832 296 L 64 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path876" />
+  <path
+     d="M 64 296 L 64 224"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path878" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="126"
+     x="448.0"
+     y="266"
+     id="text880">Acknowledgment Number</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="96"
+     x="64"
+     y="296"
+     id="rect882" />
+  <path
+     d="M 64 296 L 160 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path884" />
+  <path
+     d="M 160 296 L 160 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path886" />
+  <path
+     d="M 160 368 L 64 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path888" />
+  <path
+     d="M 64 368 L 64 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path890" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="66"
+     x="112.0"
+     y="338"
+     id="text892">Data Offset</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="144"
+     x="160"
+     y="296"
+     id="rect894" />
+  <path
+     d="M 160 296 L 304 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path896" />
+  <path
+     d="M 304 296 L 304 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path898" />
+  <path
+     d="M 304 368 L 160 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path900" />
+  <path
+     d="M 160 368 L 160 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path902" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="48"
+     x="232.0"
+     y="338"
+     id="text904">Reserved</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="24"
+     x="304"
+     y="296"
+     id="rect906" />
+  <path
+     d="M 304 296 L 328 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path908" />
+  <path
+     d="M 328 296 L 328 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path910" />
+  <path
+     d="M 328 368 L 304 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path912" />
+  <path
+     d="M 304 368 L 304 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path914" />
+  <g
+     transform="rotate(270,304,368)"
+     id="g918">
+    <text
+       fill="rgb(0,0,0)"
+       font-family="sans-serif"
+       font-size="11"
+       font-style="normal"
+       font-weight="normal"
+       text-anchor="middle"
+       textLength="18"
+       x="340.0"
+       y="386"
+       id="text916">URG</text>
+  </g>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="24"
+     x="328"
+     y="296"
+     id="rect920" />
+  <path
+     d="M 328 296 L 352 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path922" />
+  <path
+     d="M 352 296 L 352 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path924" />
+  <path
+     d="M 352 368 L 328 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path926" />
+  <path
+     d="M 328 368 L 328 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path928" />
+  <g
+     transform="rotate(270,328,368)"
+     id="g932">
+    <text
+       fill="rgb(0,0,0)"
+       font-family="sans-serif"
+       font-size="11"
+       font-style="normal"
+       font-weight="normal"
+       text-anchor="middle"
+       textLength="18"
+       x="364.0"
+       y="386"
+       id="text930">ACK</text>
+  </g>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="24"
+     x="352"
+     y="296"
+     id="rect934" />
+  <path
+     d="M 352 296 L 376 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path936" />
+  <path
+     d="M 376 296 L 376 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path938" />
+  <path
+     d="M 376 368 L 352 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path940" />
+  <path
+     d="M 352 368 L 352 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path942" />
+  <g
+     transform="rotate(270,352,368)"
+     id="g946">
+    <text
+       fill="rgb(0,0,0)"
+       font-family="sans-serif"
+       font-size="11"
+       font-style="normal"
+       font-weight="normal"
+       text-anchor="middle"
+       textLength="18"
+       x="388.0"
+       y="386"
+       id="text944">PSH</text>
+  </g>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="24"
+     x="376"
+     y="296"
+     id="rect948" />
+  <path
+     d="M 376 296 L 400 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path950" />
+  <path
+     d="M 400 296 L 400 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path952" />
+  <path
+     d="M 400 368 L 376 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path954" />
+  <path
+     d="M 376 368 L 376 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path956" />
+  <g
+     transform="rotate(270,376,368)"
+     id="g960">
+    <text
+       fill="rgb(0,0,0)"
+       font-family="sans-serif"
+       font-size="11"
+       font-style="normal"
+       font-weight="normal"
+       text-anchor="middle"
+       textLength="18"
+       x="412.0"
+       y="386"
+       id="text958">RST</text>
+  </g>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="24"
+     x="400"
+     y="296"
+     id="rect962" />
+  <path
+     d="M 400 296 L 424 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path964" />
+  <path
+     d="M 424 296 L 424 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path966" />
+  <path
+     d="M 424 368 L 400 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path968" />
+  <path
+     d="M 400 368 L 400 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path970" />
+  <g
+     transform="rotate(270,400,368)"
+     id="g974">
+    <text
+       fill="rgb(0,0,0)"
+       font-family="sans-serif"
+       font-size="11"
+       font-style="normal"
+       font-weight="normal"
+       text-anchor="middle"
+       textLength="18"
+       x="436.0"
+       y="386"
+       id="text972">SYN</text>
+  </g>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="24"
+     x="424"
+     y="296"
+     id="rect976" />
+  <path
+     d="M 424 296 L 448 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path978" />
+  <path
+     d="M 448 296 L 448 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path980" />
+  <path
+     d="M 448 368 L 424 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path982" />
+  <path
+     d="M 424 368 L 424 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path984" />
+  <g
+     transform="rotate(270,424,368)"
+     id="g988">
+    <text
+       fill="rgb(0,0,0)"
+       font-family="sans-serif"
+       font-size="11"
+       font-style="normal"
+       font-weight="normal"
+       text-anchor="middle"
+       textLength="18"
+       x="460.0"
+       y="386"
+       id="text986">FIN</text>
+  </g>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="384"
+     x="448"
+     y="296"
+     id="rect990" />
+  <path
+     d="M 448 296 L 832 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path992" />
+  <path
+     d="M 832 296 L 832 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path994" />
+  <path
+     d="M 832 368 L 448 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path996" />
+  <path
+     d="M 448 368 L 448 296"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path998" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="36"
+     x="640.0"
+     y="338"
+     id="text1000">Window</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="384"
+     x="64"
+     y="368"
+     id="rect1002" />
+  <path
+     d="M 64 368 L 448 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path1004" />
+  <path
+     d="M 448 368 L 448 440"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path1006" />
+  <path
+     d="M 448 440 L 64 440"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path1008" />
+  <path
+     d="M 64 440 L 64 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path1010" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="48"
+     x="256.0"
+     y="410"
+     id="text1012">Checksum</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="384"
+     x="448"
+     y="368"
+     id="rect1014" />
+  <path
+     d="M 448 368 L 832 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path1016" />
+  <path
+     d="M 832 368 L 832 440"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path1018" />
+  <path
+     d="M 832 440 L 448 440"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path1020" />
+  <path
+     d="M 448 440 L 448 368"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path1022" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="84"
+     x="640.0"
+     y="410"
+     id="text1024">Urgent Pointer</text>
+  <rect
+     fill="rgb(255,255,255)"
+     height="72"
+     stroke="rgb(255,255,255)"
+     width="768"
+     x="64"
+     y="440"
+     id="rect1026" />
+  <path
+     d="M 64 440 L 832 440"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path1028" />
+  <path
+     d="M 832 440 L 832 512"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path1030" />
+  <path
+     d="M 832 512 L 64 512"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path1032" />
+  <path
+     d="M 64 512 L 64 440"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path1034" />
+  <text
+     fill="rgb(0,0,0)"
+     font-family="sans-serif"
+     font-size="11"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="126"
+     x="448.0"
+     y="482"
+     id="text1036">(Options and Padding)</text>
+  <rect
+     fill="#ffffff"
+     height="216"
+     stroke="#ffffff"
+     width="768"
+     x="64"
+     y="512"
+     id="rect1038" />
+  <path
+     d="M 64 512 L 832 512"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path1040" />
+  <path
+     d="M 832 512 L 832 728"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path1042" />
+  <path
+     d="M 832 728 L 64 728"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path1044" />
+  <path
+     d="M 64 728 L 64 512"
+     fill="none"
+     stroke="rgb(0,0,0)"
+     id="path1046" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="11px"
+     font-style="normal"
+     font-weight="normal"
+     text-anchor="middle"
+     textLength="78"
+     x="448"
+     y="626"
+     id="text1048"
+     lengthAdjust="spacing"><tspan
+       sodipodi:role="line"
+       id="tspan6148"
+       x="448"
+       y="626">data (TLS)</tspan></text>
+  <metadata
+     id="metadata26884">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>blockdiag</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g63214"
+     transform="translate(0.43986254)">
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect26838"
+       width="180.34364"
+       height="57.182129"
+       x="72.577316"
+       y="519.91754" />
+    <text
+       xml:space="preserve"
+       id="text31541"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect31543);fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(2.8116379,9.9503834)"><tspan
+         x="114.71875"
+         y="534.51525"
+         id="tspan77879">TLS Record 
+</tspan><tspan
+         x="129.62891"
+         y="554.51525"
+         id="tspan77881">Frame 1</tspan></text>
+  </g>
+  <g
+     id="g75674">
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect26838-1"
+       width="180.34364"
+       height="57.182129"
+       x="261.1575"
+       y="520.42542" />
+    <text
+       xml:space="preserve"
+       id="text31541-1"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect31543-2);fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(191.39181,10.458269)"><tspan
+         x="114.71875"
+         y="534.51525"
+         id="tspan77883">TLS Record 
+</tspan><tspan
+         x="129.62891"
+         y="554.51525"
+         id="tspan77885">Frame 2</tspan></text>
+  </g>
+  <g
+     id="g77046">
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect26838-1-6"
+       width="180.34364"
+       height="57.182129"
+       x="511.71933"
+       y="520.92584" />
+    <text
+       xml:space="preserve"
+       id="text31541-1-9"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect31543-2-50);fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(441.95366,10.958676)"><tspan
+         x="114.71875"
+         y="534.51525"
+         id="tspan77887">TLS Record 
+</tspan><tspan
+         x="129.23438"
+         y="554.51525"
+         id="tspan77889">Frame X</tspan></text>
+  </g>
+  <text
+     xml:space="preserve"
+     id="text72680"
+     style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect72682)" />
+  <circle
+     style="fill:#000000;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path77298"
+     cx="466"
+     cy="551"
+     r="1" />
+  <circle
+     style="fill:#000000;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path77298-3"
+     cx="476"
+     cy="551"
+     r="1" />
+  <circle
+     style="fill:#000000;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path77298-3-6"
+     cx="486"
+     cy="551"
+     r="1" />
+</svg>

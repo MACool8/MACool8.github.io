@@ -1,0 +1,11 @@
+Install:
+pip install packetdiag
+or
+pip install nwdiag
+
+Create:
+Win:
+packetdiag.exe -T svg .\03_TLS_1_2_Handshake
+
+Linux:
+packetdiag -T svg 03_02_TLS_1_2_Client_Hello.diag

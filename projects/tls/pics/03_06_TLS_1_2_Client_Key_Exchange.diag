@@ -1,0 +1,7 @@
+{
+  colwidth = 32
+  node_height = 72
+
+  0-15: PSKIdentity_Length \n (2 byte)
+  16-31: PSKIdentity \n ($PSKIdentity_Length$ bytes, 0 - 2^16-1 bytes)
+}
