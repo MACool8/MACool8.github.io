@@ -1,6 +1,6 @@
 # Overview of the Pre Shared Key TLS 1.2 Frames
 This is a visualization, simplification and partly explanation of the TLS 1.2 Standard defined in [RFC 5246](https://datatracker.ietf.org/doc/html/rfc5246) and [RFC 4279](https://datatracker.ietf.org/doc/html/rfc4279) \
-It should help people implement, analyze and understand the TLS Framed on a bit and byte level. \
+It should help people implement, analyze and understand the TLS(Transport Layer Security) on a bit and byte level. \
 (C) [Martin Albert](https://albert-martin.de) 2025, [CC by 4.0](https://creativecommons.org/licenses/by/4.0/) (this includes Text, Pictures and Code)
 
 ---
@@ -12,7 +12,7 @@ It should help people implement, analyze and understand the TLS Framed on a bit 
 
 Let's keep this short, this is aimed towards people, who want to know which bits and bytes are needed to get a Pre-Shared-Key TLS connections running. For an overview of what TLS is, you can take a look at the excellent explanation from Cloudflare: [What is TLS?](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/) \
 I will not go in deep on how to get keys into systems. I will assume that, that already happened in a secure manner. \
-TLS 1.3 will be mentioned multiple times, but it is different in many key aspects and therefore the 1.2 Knowledge will help you understand it, but further research is definitely required, when working with TLS 1.3.
+TLS 1.3 will be mentioned multiple times, but it is different in many key aspects and therefore the 1.2 knowledge will help you understand it, but further research is definitely required, when working with TLS 1.3.
 
 
 ## Basics
@@ -22,9 +22,9 @@ TLS 1.3 will be mentioned multiple times, but it is different in many key aspect
 * TLS is not 1 to 1 mappable into UDP. Rather, a new standard is needed. (e.g. dTLS)
 * TLS is stateful. Messages and their frame structure can depend on the previous TLS message.
 * Whether a connection requires TLS is determined implicitly. A common systematic is to have TLS connection and plaintext connections separated by different TCP ports. (E.g. http uses 80, while https (http secured by TLS) is on port 443)
-* Each participating needs to either take the role of the server or the client in the communication.
+* Each participant needs to either take the role of the server or the client in the communication.
 * The client is always responsible for starting the TLS Handshake. Announcing a TLS Server availability or requesting the client to connect to the server require other technologies/techniques not defined in (d)TLS.
-* Most parameters and their hex representation can be found on [IANA](https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml)
+* Most parameters and their byte values can be found on [IANA](https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml)
 ---
 
 ## TCP

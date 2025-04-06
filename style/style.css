@@ -135,21 +135,7 @@ section{
     border-color: red;
 }
 
-.projectlist{
-    height: 30%;
-    border: 1px solid #808080;
-    display: flex;
-    overflow-x: auto;
-    margin-top: 5%;
-}
 
-.projectlist .item{
-    min-width: 25%;
-	width: 25%;
-    text-align:center;
-    margin: auto;
-
-}
 
 .invert_svg {
     -webkit-filter: invert(100%);
@@ -217,3 +203,59 @@ ul {
   li + li {
     border-top: 1px solid rgba(255,255,255,0.2);
   }
+  
+  
+      .Projects_Content {
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .Projects_Content h3 {
+      font-size: 2em;
+      margin-bottom: 0.2em;
+    }
+
+    .Projects_Content p {
+      margin-bottom: 1.5em;
+      color: #666;
+    }
+
+    .projectlist {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .item {
+      background: darkblack;
+      border-radius: 12px;
+	  border-style: solid;
+	  border-color: coral;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+      padding: 10px;
+    }
+
+    .item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .item img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .item a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      font-weight: bold;
+    }
+
+    .item br {
+      line-height: 1.2em;
+    }
