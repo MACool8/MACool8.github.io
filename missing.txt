@@ -1,5 +1,0 @@
-Einfügen in class Main_Content unter den HREFS
-
-
-<p class="onlyShowsInWebKitBrowser">It's seems you are using a Chromium based browser. As of now there is a bug with scrolling in these kind of Websites in Chrome. Please use anything but the scrollwheel to scroll. Arrow Up/Down, Page Up/Down, the mousepad or the navigation buttons on this Website will do :) <br /><small>Also add this to the reasons, i rather like to work in backend than frontend. Let's see how long <a href="https://stackoverflow.com/questions/56629124/chromes-hidden-css-scroll-snap-threshold-and-how-to-change-it">this Bug</a> will persist.</small></p>
-                <h2>DISCLAIMER: This Website is still in a  "Work in Progress"-state. Don't critice it for not being perfect :p </br> I'm on the case :)</h2>
