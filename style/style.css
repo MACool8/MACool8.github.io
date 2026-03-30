@@ -1,289 +1,440 @@
+/* --- RESET & BASICS --- */
 body {
-    
     margin: 0;
+    background-color: #050505; /* Deepest black */
+    color: #00ff41; /* Matrix Green */
+    font-family: 'Share Tech Mono', monospace; /* The hacker font */
+    overflow-x: hidden;
 }
 
-h1 {
-    text-align: center;
+h1, h2, h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0.5em;
 }
 
-h2 {
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
-}
+h1 { font-size: 3rem; text-shadow: 0 0 10px rgba(0, 255, 65, 0.7); }
+h2 { font-size: 1.5rem; color: #ffffff; }
+h3 { font-size: 1.2rem; color: #fce803; /* Cyber Yellow */ }
 
 p {
-    text-align: center;
-    vertical-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 1.5rem auto;
 }
 
-html {
-    font-family: sans-serif;
-}
-
-section{
-    scroll-snap-align: start;
-    display: block;
-    height: 100vh;
-}
-
-.CONTAINER{
-
+/* --- SCROLL CONTAINER --- */
+.CONTAINER {
     scroll-snap-type: y mandatory;
-    overflow-y: visible hidden;
+    overflow-y: scroll; /* Force scrollbar for aesthetic */
     overflow-x: hidden;
     scroll-snap-stop: always;
     scroll-behavior: smooth; 
+    height: 100vh;
+    position: relative;
 }
+
+section {
+    scroll-snap-align: start;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+	padding: 20px; /* Adds breathing room on mobile so text isn't cut off */
+    box-sizing: border-box; /* Ensures padding is included in the 100vh height */
+}
+
+/* --- CRT EFFECTS (Scanlines) --- */
+.scanlines {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(255,255,255,0),
+        rgba(255,255,255,0) 50%,
+        rgba(0,0,0,0.2) 50%,
+        rgba(0,0,0,0.2)
+    );
+    background-size: 100% 4px;
+    pointer-events: none;
+    z-index: 999;
+    opacity: 0.6;
+}
+
+/* --- TYPOGRAPHY & UTILS --- */
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-/*First Conteiner with Header*/
+.highlight { color: #fce803; font-weight: bold; }
+
+/* --- HOME SECTION --- */
 .Main {
-    background-color: black;
-    color: white;
-    vertical-align: central;
+    background-color: #000;
+    text-align: center;
+    border-bottom: 2px solid #00ff41;
 }
+
 .Main_Content {
-    padding: 25;
-    align-content: center;
-    vertical-align:central;
+    padding: 20px;
 }
 
-/*Introduction Container*/
-.Intro {
-    background-color: #0c0c0c;
-    color: white;
-    vertical-align: center;
+.nav-bar {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
 
-.Intro_Content {
-	
-    padding: 25;
-    align-content: center;
-    vertical-align: center;
-}
-
-/*Genrel Stuff container*/
-.General {
-    background-color: black;
-    color: white;
-}
-
-.General_Content {
-    padding: 25;
-    align-content: center;
-}
-
-/*Curriculum Vitea Container*/
-.CV {
-    background-color: #0c0c0c;
-    color: white;
-}
-
-.CV_Content {
-    padding: 25;
-    align-content: center;
-}
-
-/*Projects container*/
-.Projects {
-    background-color: black;
-    color: white;
-}
-
-.Projects_Content {
-    padding: 25;
-    align-content: center;
-}
-
-/*Contacts container*/
-.Contacts {
-    background-color: #0c0c0c;
-    color: white;
-}
-
-.Contacts_Content {
-    padding: 25;
-    align-content: center;
-}
-
-/*Projects container*/
-.Misc {
-    background-color: black;
-    color: white;
-}
-
-.Misc_Content {
-    padding: 25;
-    align-content: center;
-    width: 66%;
-    margin: auto;
-}
-
-.link {
-    color: red;
+.nav-bar a {
+    color: #00ff41;
+    margin: 0 15px;
     text-decoration: none;
-    background-color: none;
-    border:thick;
-    border-color: red;
+    background: rgba(0,0,0,0.8);
+    padding: 5px 10px;
+    border: 1px solid #00ff41;
+    transition: all 0.3s;
 }
 
-
-
-.invert_svg {
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.nav-bar a:hover {
+    background: #00ff41;
+    color: #000;
+    box-shadow: 0 0 15px #00ff41;
 }
 
+/* Blinking Cursor */
+.blink-cursor {
+    animation: blink 1s step-end infinite;
+    color: #00ff41;
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+/* --- SECTIONS BACKGROUND PATTERN --- */
+section {
+    background-image: radial-gradient(#111 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+/* --- HOME BUTTON --- */
 .homebutton {
-    overflow: hidden;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    right: 0;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
 }
 
-.onlyShowsInWebKitBrowser {
-    opacity: 0;
-    text-align: left;
-    width: 30%;
+/* SVG Inversion for dark mode */
+.svg-icon {
+    
 }
 
-@supports (-webkit-appearance:none) and (not (overflow:-webkit-marquee)) and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)){ 
-    .onlyShowsInWebKitBrowser {
-        opacity: 1;
-    }    
-}   
+/* --- LINKS --- */
+.link {
+    color: #00ff41;
+    text-decoration: none;
+    border-bottom: 1px solid #00ff41;
+    transition: 0.3s;
+}
+.link:hover {
+    background-color: #00ff41;
+    color: #000;
+    box-shadow: 0 0 10px #00ff41;
+}
 
-/* List */
-ul {
-    counter-reset: index;  
+/* --- TERMINAL WINDOWS (For content blocks) --- */
+.code-block, .terminal-window {
+    background: rgba(0, 20, 0, 0.8);
+    border-left: 4px solid #fce803;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+
+.terminal-window p {
+    margin: 5px 0;
+    color: #fff;
+}
+
+/* --- CAROUSEL STYLING (Enhanced) --- */
+.carousel {
+    margin-top: 30px;
+    border: 1px solid #333;
+    box-shadow: 0 0 20px rgba(0,0,0,0.9);
+    background: #000;
+}
+
+/* --- TIMELINE (CV) --- */
+.CV_Content {
+    max-width: 800px;
+    margin: auto;
+    width: 90%;
+}
+
+.timeline {
+    position: relative;
     padding: 0;
-    max-width: 720px;
-  }
-  
-  /* List element */
-  li {
-    counter-increment: index; 
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #333;
+}
+
+.timeline-item {
+    margin-bottom: 40px;
+    padding-left: 50px;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '//';
+    position: absolute;
+    left: 2px;
+    top: 0;
+    color: #fce803;
+    font-weight: bold;
+}
+
+.timeline-item h3 {
+    color: #fce803;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #333;
     display: flex;
-    align-items: left;
-    padding: 12px 0;
-    box-sizing: border-box;
-  }
-  
-  
+    align-items: baseline;
+}
 
-  
-  /* Element separation */
-  li + li {
-    border-top: 1px solid rgba(255,255,255,0.2);
-  }
-  
-  
-      .Projects_Content {
-      max-width: 1200px;
-      margin: auto;
-    }
+li::before {
+    content: '>';
+    color: #00ff41;
+    margin-right: 10px;
+}
 
-    .Projects_Content h3 {
-      font-size: 2em;
-      margin-bottom: 0.2em;
-    }
-
+/* --- PROJECTS GRID --- */
 .Projects_Content {
-    /* Allow the content to expand up to the viewport width minus some padding */
     max-width: 95%; 
     margin: auto;
     padding: 25px;
     align-content: center;
-    /* Ensure the container itself doesn't restrict the grid */
-    width: fit-content; 
-    max-width: 100vw;
+	width: fit-content; 
+	max-width: 100vw;
 }
 
 .projectlist {
     display: grid;
-    
-    /* 
-       THE KEY TO DYNAMIC GRID:
-       1. auto-fill: Fills the row as many times as possible.
-       2. minmax(200px, 1fr): 
-          - Minimum 200px (items shrink no smaller than this).
-          - Max 1fr (items grow to fill empty space).
-    */
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
+   
 }
 
-    .item {
-      background: darkblack;
-      border-radius: 12px;
-	  border-style: solid;
-	  border-color: coral;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-      text-align: center;
-      transition: transform 0.2s ease, box-shadow 0.3s ease;
-      padding: 10px;
-    }
-
-    .item:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    }
-
-    .item img {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 10px;
-    }
-
-    .item a {
-      text-decoration: none;
-      color: inherit;
-      display: block;
-      font-weight: bold;
-    }
-
-    .item br {
-      line-height: 1.2em;
-    }
-
-    .CV_Content {
-    background-color: #0d0d0d;
-    color: white;
-    padding: 2rem;
-    border-radius: 10px;
-    margin: 2rem auto;
-    max-width: 800px;
-}
-
-.timeline {
+/* The Individual Items */
+.item {
+    /* 
+       UNIFORM SIZE FIX:
+       We set a min-height so all boxes look the same size.
+       We use 1fr for height so they grow together if content requires it.
+    */
+    height: 1fr;
+    min-height: 220px; 
+    
+    /* Visual Style */
+    background: #0a0a0a;
+    border: 1px solid #333;
+    border-radius: 4px; /* Slight rounding */
+    padding: 15px;
+    
+    /* Center Content inside the box */
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    
+    /* Transitions */
+    transition: 0.3s;
+    text-align: center;
 }
 
-.timeline-item {
-    position: relative;
-    padding-left: 3rem;
-    margin-left: 1.5rem;
-    border-left: 2px solid coral;
+/* Hover Effect */
+.item:hover {
+    border-color: #00ff41;
+    background: #111;
+    box-shadow: 0 0 15px rgba(0, 255, 65, 0.3);
 }
 
-.timeline-item h3 {
-    color: coral;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+/* Image Styling */
+.item img {
+    max-width: 100%;
+    object-fit: contain; /* Keeps proportions */
+    margin-bottom: 10px;
+    filter: grayscale(50%);
+    transition: 0.3s;
 }
+
+.item:hover img {
+    filter: grayscale(0%);
+}
+
+/* Text Styling */
+.item span {
+    display: block;
+    margin: 2px 0;
+}
+
+
+
+.item .label { font-size: 1.1rem; color: #fff; font-weight: bold; }
+.item .desc { font-size: 0.9rem; color: #aaa; }
+
+
+
+/* --- GLITCH EFFECTS --- */
+.glitch-wrapper {
+    text-align: center;
+    padding: 40px;
+    border: 1px dashed #fce803;
+}
+
+.glitch-image-container img {
+    /* This limits the image width to 400px and makes height automatic */
+    max-width: 400px; 
+    width: 100%; /* Ensures it doesn't overflow mobile screens */
+    height: auto;
+    margin: 20px auto; /* Centers it properly */
+}
+
+.glitch-img {
+    border: 1px solid #00ff41;
+    filter: contrast(1.2);
+}
+
+/* --- MISC --- */
+.Misc {
+    background: #000;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 600px) {
+    h1 { font-size: 2rem; }
+    .nav-bar { font-size: 0.8rem; display: flex; flex-wrap: wrap; justify-content: center; }
+    .nav-bar a { margin: 5px; }
+}
+
+/* ... (Keep all your existing CSS from the beginning of the file) ... */
+
+/* --- MOBILE ADJUSTMENTS (UPDATED) --- */
+@media (max-width: 768px) {
+    
+    /* 1. Disable the strict Snap Scroll on mobile */
+    /* This allows the user to scroll naturally like a normal website */
+    .CONTAINER {
+        scroll-snap-type: none; /* Removes the strict snapping */
+        height: auto;          /* Allows the container to grow */
+        overflow-y: auto;
+    }
+
+    /* 2. Change Sections to be minimum 100vh, not fixed */
+    /* If content is short, it snaps to screen. If content is long (overflow), it creates a scrollable area */
+    section {
+        height: auto;
+        min-height: 100vh; /* Guarantees it takes up the full screen at least */
+        padding-top: 20px; /* Add padding so title isn't stuck to the top */
+        padding-bottom: 60px; /* Add breathing room at the bottom */
+    }
+
+    /* 3. Adjust Typography for smaller screens */
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.1rem; }
+    h3 { font-size: 1rem; }
+    
+    /* 4. Navigation Bar Wrapping */
+    .nav-bar { 
+        display: flex;
+        flex-wrap: wrap; /* Allows links to wrap to next line if needed */
+        justify-content: center; 
+        gap: 10px;
+        margin-top: 20px;
+    }
+    
+    .nav-bar a {
+        font-size: 0.8rem;
+        padding: 4px 8px;
+    }
+
+    /* 5. Project List: Switch to smaller grid */
+    .projectlist {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); 
+        gap: 15px;
+    }
+    
+    .item {
+        min-height: auto; /* Let items adjust to height */
+    }
+    
+    .item img {
+        width: 60px; /* Shrink icons on mobile */
+        height: 60px;
+    }
+    
+    .item .label { font-size: 0.9rem; }
+    .item .desc { font-size: 0.7rem; }
+
+    /* 6. Carousel: Smaller height */
+    .carousel {
+        width: 90%;
+        height: 150px;
+    }
+
+    /* 7. Fix the Home Button Position */
+    /* On mobile, top-right is hard to reach. Move to Bottom-Right */
+    .homebutton {
+        top: auto;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1001;
+    }
+    
+    /* Make the icon smaller on mobile */
+    .homebutton img {
+        width: 40px; 
+        height: 40px;
+    }
+
+    /* 8. Glitch Image adjustment */
+    .glitch-image-container img {
+        max-width: 100%;
+        height: auto;
+    }
+	
+	.item img {
+        filter: none !important;
+    }
+	
+	#contacts {
+        min-height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: flex-start; /* Prevents vertical centering from creating gaps */
+    }
+}
+

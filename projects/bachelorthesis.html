@@ -2,18 +2,75 @@
 
 <head>
 	<title> 
-            Homepage of Martin Albert 
+            Martin Albert // Bachelor Thesis 
     </title> 
 
+    <!-- We link to the main stylesheet -->
     <link rel="stylesheet" type="text/css" href="../style/style.css" />
 	<link rel="icon" href="../pic/Icon.png" type="image/icon type">
+    
+    <!-- Internal styles specifically for this subpage -->
+    <style>
+        /* OVERRIDE: Allow the container to grow automatically based on text length */
+        .CONTAINER {
+            height: auto !important; 
+            width: 100%;
+            overflow-x: hidden;
+            padding-bottom: 50px;
+        }
+
+        /* Ensure the section expands and doesn't force scroll snap */
+        section {
+            height: auto !important;
+            min-height: auto !important;
+            scroll-snap-align: none;
+            padding: 60px 20px; /* Add padding for better reading */
+            max-width: auto; /* Limit text width for readability */
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+
+        /* SVG Inversion for the eye_catcher */
+        .invert_svg {
+            display: block;
+            margin: 30px auto;
+            filter: invert(100%) hue-rotate(180deg); /* Inverts colors to make it pop */
+            max-width: 900px;
+            height: auto;
+        }
+		
+		.Main_Content{
+			width: 100%;
+		}
+		
+		p {
+			max-width: 1200px;
+		}
+        
+        /* Adjust PDF Image */
+        .Main_Content img[src*="PDF_download"] {
+            filter: invert(0%); /* Invert PDF icon too if it's white */
+            transition: 0.3s;
+        }
+        
+        .Main_Content img[src*="PDF_download"]:hover {
+            filter: invert(0%);
+            transform: scale(1.05);
+        }
+		@media (max-width: 768px) {
+			section {
+				max-width: 900px; /* Limit text width for readability */
+			}
+		}
+    </style>
 </head>
 
 <body>
-    <div class="CONTAINER" style="height: 100vh;">
+    <!-- Removed "height: 100vh" so the page can scroll freely -->
+    <div class="CONTAINER">
         <div class="homebutton">
             <a href="../index.html">
-                <img class="link" src="../pic/house_v2.svg" alt="Go up" width="100" height="100" />
+                <img class="link svg-icon" src="../pic/house_v2.svg" alt="Go up" width="100" height="100" />
             </a>
         </div>
 
@@ -22,16 +79,25 @@
                 <h2>Introduction Side-Channels</h2>
                 <p>Have you ever heard your laptop fans ramp up and knew, just by the intensity, that it's working hard? If yes, then congratulation, you already used side channel information to diagnose your own system.</p>
                 <p>Without going into detail: Side channel information come from unavoidable side/waste products. For example, the sound of a fan spinning, the time it takes to calculate if your password is correct or even the power draw of your system. In those cases the sound, the time needed for calculations and power draw are undesirable and not productive, but nonetheless allow for interesting inferences, like the current workload of your system or how long your password is :)</p>
+                
                 <h2>What can we do with Side-Channel Information?</h2>
                 <p>If you watched any FBI/CSI/Crime Solving series or movie in the past decades you will probably already know plenty of examples where the heroic detective will use some kind of Side-channel, like the remaining imprints on a notebook or the remaining heat of a cup of coffee to determine how long ago the culprit left, which allowed the detective to gain further information and allow them to solve the case!</p>
                 <p>Similar to those cases, Cybersecurity Specialists and Hackers have been using Side-Channels to gain an advantage for decades now. For example, measuring the time it takes a weak password checker program, to verify a password, can reveal how many characters of a password an attacker guessed right and therefore allow him to guess the right password a lot faster! This is pretty much the notebook imprint trick of the hacker world.</p>
                 <p>Would we take another comparison to the selection of detective tricks, then the remaining heat in the cup trick would compare novelty wise pretty nicely to the power-analysis attacks in the cybersecurity world. This is an attack where you analyze the power consumption during the encryption of known data and inference from that the used secret key.</p>
+                
                 <h2>Can we do even more?</h2>
+                <!-- Added class invert_svg -->
                 <img class="invert_svg" src="../pic/eye_catcher.svg" height="300px">
+                
                 <p>This question was the driving force behind my bachelor thesis "Side-Channel Analysis for detecting anomalies in software", where I researched the functionality of power-analysis attacks straight down to the semiconductor level and brought this theoretical knowledge into a practical experiment, proving that patterns in the power consumption could be used to determine the state of an automotive ECU after an unstable hack. </p>
                 <p>This therefore proofed that there is a lot of untapped potential for multiple more use cases, like virus or intrusion detection systems or new kinds of attacks.</p>
                 <p>If this sparked your interest, my bachelor thesis could be worth a read. The only catch: It's currently only available in German.</p>
-                <p><a href="Martin_Albert_Bachelorarbeit_online.pdf"><img src="../pic/PDF_download.svg" height="150px"></a></p>
+                
+                <div style="text-align: center; margin-top: 40px;">
+                    <a href="Martin_Albert_Bachelorarbeit_online.pdf">
+                        <img src="../pic/PDF_download.svg" height="150px" alt="Download PDF">
+                    </a>
+                </div>
             </div>
         </section>
     </div>
